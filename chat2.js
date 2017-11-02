@@ -1,7 +1,7 @@
 "use strict";
 
 $(document).ready(function () {
-    var chatInterval = 1000; 
+    var chatInterval = 3000; 
     var $userName = $("#userName");
     var $chatOutput = $("#chatOutput");
     var $chatInput = $("#chatInput");
