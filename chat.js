@@ -1,7 +1,7 @@
 "use strict";
 
 $(document).ready(function () {
-    var chatInterval = 250; 
+    var chatInterval = 1000; 
     var $userName = $("#userName");
     var $chatOutput = $("#chatOutput");
     var $chatInput = $("#chatInput");
@@ -43,5 +43,5 @@ function scrollSmoothToBottom (id) {
    var div = document.getElementById(id);
    $('#' + id).animate({
       scrollTop: div.scrollHeight - div.clientHeight
-   }, 100); 
+   }, 1000); 
 }
